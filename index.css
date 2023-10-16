@@ -1,0 +1,67 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+*{
+    border: 1px solid black;
+}
+
+.header{
+    display: flex;
+    /* flex-grow: 1; */
+    background-color: aqua;
+    flex-basis: 60px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-grow: 3;
+}
+
+.head-right-links{
+    display: flex;
+    flex-grow: 1;
+}
+
+ul{
+    display: flex;
+    gap: 24px;
+
+}
+
+.head-box{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.info-box{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.quote-box{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.signup-box{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.footer{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 60px;
+}
