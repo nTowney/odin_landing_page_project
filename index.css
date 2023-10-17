@@ -33,7 +33,11 @@ a{
     display: flex;
     flex-grow: 1;
     justify-content: flex-start;
-    padding-left: 25px;
+    /* padding-left: 25px; */
+}
+
+.header img{
+    margin: 0 20px;
 }
 
 .head-right-links{
@@ -55,6 +59,7 @@ ul{
     flex-grow: 1;
     flex-basis: 400px;
     align-items: center;
+    justify-content: center;
     /* background-color: forestgreen; */
 }
 
@@ -76,7 +81,7 @@ ul{
 
 .head-button{
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px 8px;
 }
 
@@ -87,7 +92,7 @@ ul{
 .head-img{
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    flex-shrink: 1;
     justify-content: center;
 }
 
@@ -161,7 +166,7 @@ ul{
     font-size: 24px;
     justify-content: center;
     margin: 0;
-    background-color: green;
+    background-color: #60a6a6bd;
     border-radius: 10px;
     padding: 10px 15px;
 }
@@ -170,6 +175,9 @@ ul{
     display: flex;
     align-self: flex-end;
     margin: 10px;
+    background-color: #60a6a6bd;
+    border-radius: 15px;
+    padding: 5px 10px;
 }
 
 .signup-box{
@@ -186,8 +194,10 @@ ul{
     justify-content: space-around;
     flex-grow: 0;
     align-self: center;
-    min-width: 600px;
-    background-color: mediumspringgreen;
+    min-width: 700px;
+    background-color: rgba(0, 250, 154, 0.695);
+    border-radius: 10px;
+    min-height: 200px;
 }
 
 .signup-content{
@@ -199,6 +209,8 @@ ul{
 
 .signup-button{
     display: flex;
+    font-size: 25px;
+    border-radius: 15px;
     
 
 }
@@ -209,5 +221,5 @@ ul{
     flex-basis: 50px;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: #60a6a6;
 }
