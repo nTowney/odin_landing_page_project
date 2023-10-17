@@ -9,7 +9,7 @@ body{
     margin: 0;
 }
 *{/*FOR ALIGNING AND TROUBLESHOOTING*/
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 a{
@@ -18,7 +18,6 @@ a{
 
 .header{
     display: flex;
-    /* flex-grow: 1; */
     background-color: forestgreen;
     max-height: 50px;
     align-items: center;
@@ -29,6 +28,7 @@ a{
 .logo{
     display: flex;
     flex-grow: 1;
+    justify-content: center;
 }
 
 .head-right-links{
@@ -100,30 +100,83 @@ ul{
 .fun-fact{
     display: flex;
     flex-direction: column;
+    max-width: 200px;
 }
 
 .fact-img{
     display: flex;
-    height: 200px;
+    flex-basis: 200px;
     flex-grow: 1;
+    max-width: 200px;
 }
 
 .fact-content{
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
 .quote-box{
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
     flex-basis: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: seagreen;
+}
+
+.quote-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    width: 600px;
+}
+
+.quote{
+    display: flex;
+    font-style: italic;
+    font-size: 24px;
+    justify-content: center;
+    margin: 0;
+}
+
+.quote-ref{
+    display: flex;
+    align-self: flex-end;
+    margin: 10px;
 }
 
 .signup-box{
     display: flex;
     flex-grow: 1;
-    flex-basis: 400px;
+    flex-basis: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 0;
+    align-self: center;
+    min-width: 600px;
+    background-color: mediumspringgreen;
+}
+
+.signup-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.signup-button{
+    display: flex;
+    
+
 }
 
 .footer{
