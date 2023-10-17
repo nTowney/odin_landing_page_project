@@ -2,6 +2,9 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 28px;
     box-sizing: border-box;
+    background-image: url(./img/satori-mountain-background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 body{
     display: flex;
@@ -9,16 +12,17 @@ body{
     margin: 0;
 }
 *{/*FOR ALIGNING AND TROUBLESHOOTING*/
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .header{
     display: flex;
-    background-color: forestgreen;
+    background-color: #60a6a6;
     max-height: 50px;
     align-items: center;
     padding: 0 10px;
@@ -28,19 +32,21 @@ a{
 .logo{
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 25px;
 }
 
 .head-right-links{
     display: flex;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 ul{
     display: flex;
-    gap: 36px;
+    gap: 24px;
     list-style: none;
+    font-size: 18px;
 
 }
 
@@ -48,27 +54,41 @@ ul{
     display: flex;
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: forestgreen;
+    align-items: center;
+    /* background-color: forestgreen; */
 }
 
 .head-blurb{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-grow: 1;
+    flex-grow: 3;
     flex-basis: 1;
     align-items: center;
     justify-content: center;
+    background-color: #60a6a6db;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 10px;
+    padding: 0px 10px 25px 10px;
+    margin-left: 50px;
+}
+
+.head-button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 8px;
 }
 
 .content{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .head-img{
     display: flex;
     align-items: center;
     flex-grow: 1;
+    justify-content: center;
 }
 
 .info-box{
@@ -77,7 +97,7 @@ ul{
     flex-basis: 400px;
     flex-direction: column;
     align-items: center;
-    background-color: lightgreen;
+    background-color: #a3ff4dbd;
 }
 
 .info-box-head{
@@ -94,20 +114,21 @@ ul{
     gap: 100px;
     padding: 0 200px;
     flex-grow: 4;
-    
 }
 
 .fun-fact{
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    flex-basis: 200px;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 .fact-img{
     display: flex;
     flex-basis: 200px;
     flex-grow: 1;
-    max-width: 200px;
+    max-height: 200px;
 }
 
 .fact-content{
@@ -123,7 +144,6 @@ ul{
     flex-basis: 400px;
     align-items: center;
     justify-content: center;
-    background-color: seagreen;
 }
 
 .quote-content{
@@ -132,6 +152,7 @@ ul{
     flex-grow: 1;
     justify-content: center;
     width: 600px;
+    padding: 25px;
 }
 
 .quote{
@@ -140,6 +161,9 @@ ul{
     font-size: 24px;
     justify-content: center;
     margin: 0;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px 15px;
 }
 
 .quote-ref{
