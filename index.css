@@ -2,7 +2,7 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 28px;
     box-sizing: border-box;
-    background-image: url(./img/satori-mountain-background.jpeg);
+    background-image: url(./img/botw-korok-forrest.jpeg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -11,21 +11,23 @@ body{
     flex-direction: column;
     margin: 0;
 }
-*{/*FOR ALIGNING AND TROUBLESHOOTING*/
-    /* border: 1px solid black; */
-}
+/* *{FOR ALIGNING AND TROUBLESHOOTING
+    border: 1px solid black;
+} */
 
 a{
     text-decoration: none;
-    color: black;
+    color: #1b2e2e;
 }
 
 .header{
     display: flex;
-    background-color: #60a6a6;
+    background-color: #8cd548;
     max-height: 50px;
     align-items: center;
     padding: 0 10px;
+    color: #1b2e2e;
+    border-bottom: solid 2px #1b2e2e;
 }
 
 
@@ -44,6 +46,7 @@ a{
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
+    color: #1b2e2e;
 }
 
 ul{
@@ -70,19 +73,25 @@ ul{
     flex-grow: 3;
     flex-basis: 1;
     align-items: center;
-    justify-content: center;
-    background-color: #60a6a6db;
+    /* justify-content: center; */
+    background-color: #60a6a6bd;
     max-width: fit-content;
     max-height: fit-content;
     border-radius: 10px;
+    border: solid 2px #1b2e2e;
     padding: 0px 10px 25px 10px;
     margin-left: 50px;
+    color: #1b2e2e;
 }
 
 .head-button{
     font-size: 20px;
-    border-radius: 15px;
+    font-weight: 700;
+    border-radius: 10px;
     padding: 5px 8px;
+    color: #1b2e2e;
+    background-color: #8cd548;
+    border: solid 2px #1b2e2e;
 }
 
 .content{
@@ -102,7 +111,7 @@ ul{
     flex-basis: 400px;
     flex-direction: column;
     align-items: center;
-    background-color: #a3ff4dbd;
+    background-color: #8cd548bd;
 }
 
 .info-box-head{
@@ -134,6 +143,8 @@ ul{
     flex-basis: 200px;
     flex-grow: 1;
     max-height: 200px;
+    border: solid 2px #1b2e2e;
+    border-radius: 10px;
 }
 
 .fact-content{
@@ -154,10 +165,14 @@ ul{
 .quote-content{
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     justify-content: center;
     width: 600px;
-    padding: 25px;
+    border: solid 2px #1b2e2e;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: #60a6a6bd;
+    color: #1b2e2e;
 }
 
 .quote{
@@ -166,7 +181,7 @@ ul{
     font-size: 24px;
     justify-content: center;
     margin: 0;
-    background-color: #60a6a6bd;
+    /* background-color: #60a6a6bd; */
     border-radius: 10px;
     padding: 10px 15px;
 }
@@ -175,7 +190,6 @@ ul{
     display: flex;
     align-self: flex-end;
     margin: 10px;
-    background-color: #60a6a6bd;
     border-radius: 15px;
     padding: 5px 10px;
 }
@@ -195,22 +209,35 @@ ul{
     flex-grow: 0;
     align-self: center;
     min-width: 700px;
-    background-color: rgba(0, 250, 154, 0.695);
+    background-color: #8cd548bd;
     border-radius: 10px;
     min-height: 200px;
+    border: solid 2px #1b2e2e;
 }
 
 .signup-content{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    color: #1b2e2e;
     
+}
+
+.signup-button-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
 }
 
 .signup-button{
     display: flex;
-    font-size: 25px;
-    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #1b2e2e;
+    background-color: #60a6a6;
+    border: solid 2px #1b2e2e;
     
 
 }
@@ -221,5 +248,6 @@ ul{
     flex-basis: 50px;
     justify-content: center;
     align-items: center;
-    background-color: #60a6a6;
+    background-color: #8cd548;
+    border-top: solid 2px #1b2e2e;
 }
