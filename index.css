@@ -120,6 +120,7 @@ ul{
     max-height: 100px;
     font-size: 24px;
     width: auto;
+    color: #1b2e2e;
 }
 
 .info-box-content{
@@ -144,13 +145,14 @@ ul{
     flex-grow: 1;
     max-height: 200px;
     border: solid 2px #1b2e2e;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .fact-content{
     display: flex;
     font-size: 16px;
     text-align: center;
+    color: #1b2e2e;
 }
 
 .quote-box{
@@ -206,8 +208,8 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-grow: 0;
-    align-self: center;
+    flex-shrink: 1;
+    /* align-self: center; */
     min-width: 700px;
     background-color: #8cd548bd;
     border-radius: 10px;
@@ -218,8 +220,11 @@ ul{
 .signup-content{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     color: #1b2e2e;
+    max-width: 500px;
+    /* text-align: center; */
+    flex-wrap: wrap;
+
     
 }
 
@@ -227,7 +232,8 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
+    flex-shrink: 0;
 }
 
 .signup-button{
@@ -238,8 +244,7 @@ ul{
     color: #1b2e2e;
     background-color: #60a6a6;
     border: solid 2px #1b2e2e;
-    
-
+    padding: 5px 8px;
 }
 
 .footer{
@@ -250,4 +255,6 @@ ul{
     align-items: center;
     background-color: #8cd548;
     border-top: solid 2px #1b2e2e;
+    font-size: 18px;
+    color: #1b2e2e;
 }

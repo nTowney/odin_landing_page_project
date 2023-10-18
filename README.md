@@ -5,3 +5,22 @@ I will be using this readme file to credit any photos I include on my landing pa
 
 Cyndi came up with a great idea: make this page the Blupee Conservation Society.
 She has already done a lot of design work for the logo, I will be using the color pallette she uses.
+
+
+
+Image credits:
+
+Blupee Conservation Society logo:
+Original content
+
+Blupee-portrait:
+https://www.zeldadungeon.net/wiki/Blupee
+
+TOTK-bubbulfrog:
+https://www.polygon.com/zelda-tears-of-the-kingdom-guide/23708795/bubbul-gems-koltin-kilton-hunt-for-bubbulfrog-bubble-gem
+
+Lord-of-the-mountain:
+https://www.zeldadungeon.net/wiki/Lord_of_the_Mountain
+
+blupee-cave:
+https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Blupee
