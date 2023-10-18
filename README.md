@@ -22,5 +22,5 @@ https://www.polygon.com/zelda-tears-of-the-kingdom-guide/23708795/bubbul-gems-ko
 Lord-of-the-mountain:
 https://www.zeldadungeon.net/wiki/Lord_of_the_Mountain
 
-blupee-cave:
-https://www.ign.com/wikis/the-legend-of-zelda-tears-of-the-kingdom/Blupee
+blupee-rupee:
+https://dribbble.com/shots/14661410-Blurpee-from-Zelda-BOTW
